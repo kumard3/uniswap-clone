@@ -1,10 +1,10 @@
-import sanityClient from '@sanity/client'
+import sanityClient from "@sanity/client";
 
 export const client = sanityClient({
-  projectId: 'nw03is8d',
-  dataset: 'production',
-  apiVersion: 'v1',
+  projectId: "ta9fktci",
+  dataset: "production",
+  apiVersion: "v1",
   token:
-    'skwR1AJMMGYeNnKR0EcBvjEas7tGeslX9fEFwj1ZAwC4JCZeFXGdJAl6AFUMXeSmUkxTBJ7LPgvWjbrEzCzpx5ZBWcWZrsBM1y6L6e5xyX1Fr7I5UK6i7lmFAtx4vow1SU3xsjtSySAWlS4uIapo77YZ76MtLy7Gf5W6SnMzfnA3EEkUPFee',
+  "skLUEHZdnqv6eWGu5qsviMpY4cBm1PryU90Mp6sej10r6MqnrZjbEUyQSrXqJD1ks6ivODHuwBfWkqIjTuq4ypHYUaZyh7fxz0QU97qOOkUdhi85TdFHtrFe3wLIKNyuhhji07ln5EjB2rT5jeqpPaQqogH9MDLKcUlEqiGVfs6bzRc7fS0v",
   useCdn: false,
-})
+});

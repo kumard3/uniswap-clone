@@ -170,6 +170,7 @@ export const TransactionProvider = ({ children }) => {
           },
         ],
       })
+      //this will return an hash if every this is completed successfully
 
       const transactionHash = await transactionContract.publishTransaction(
         addressTo,
