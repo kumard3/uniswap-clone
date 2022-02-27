@@ -1,11 +1,16 @@
-/* eslint-disable @next/next/link-passhref */
-import Link from "next/link";
-import * as React from "react";
+import Header from "../components/Header";
+import Main from "../components/Main";
+
+const styles = {
+  wrapper: `h-screen max-h-screen h-min-screen w-screen bg-[#2d242f] text-white select-none flex flex-col justify-between`,
+};
 
 export default function Home() {
   return (
-    <div className="bg-black min-h-screen text-white flex justify-center items-center w-full">
-      <h1 className="text-4xl"> Uniswap Clone 🚀🚀 </h1>
+    <div className={styles.wrapper}>
+      <Header />
+      <Main />
+      <h2>Transactions History</h2>
     </div>
   );
 }
