@@ -7,7 +7,7 @@ import ethLogo from '../assets/ethCurrency.png'
 import { FiArrowUpRight } from 'react-icons/fi'
 
 const style = {
-  wrapper: `min-h-5 text-white select-none  w-screen flex-1 pt-14 flex items-end justify-end pb-12 overflow-scroll px-8`,
+  wrapper: `min-h-5 z-[100] text-white select-none  w-screen flex-1 pt-14 flex items-end justify-end pb-12 overflow-scroll px-8`,
   txHistoryItem: `bg-[#191a1e] rounded-lg px-4 py-2 my-2 flex items-center justify-end`,
   txDetails: `flex items-center`,
   toAddress: `text-[#f48706] mx-2`,
