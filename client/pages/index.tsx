@@ -32,3 +32,5 @@ export default Home;
     backdrop-filter: blur(1038px);
 
 */
+
+
